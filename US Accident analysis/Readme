@@ -1,0 +1,26 @@
+# 🚗 U.S. Accident Analysis  
+
+## 📌 Project Overview  
+This project focuses on analyzing **U.S. accident data** to identify trends, risk factors, and patterns that impact road safety. The goal is to extract meaningful insights using **Exploratory Data Analysis (EDA), data visualization, and machine learning models**.  
+
+## 🔍 Dataset  
+The dataset used for this analysis is **US Accidents (2016 - 2023)**, which includes accident records from across 49 U.S. states. You can access the dataset here:  
+📂 **[US Accidents Dataset on Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents/)**  
+
+## 🔬 Technologies Used  
+- **Programming Language:** Python  
+- **Libraries & Frameworks:**  
+  - **Data Analysis & Cleaning:** Pandas, NumPy  
+  - **Visualization:** Matplotlib, Seaborn, Power BI  
+  - **Machine Learning (if applied):** Scikit-Learn  
+
+## 📊 Key Insights  
+- Trends in accident frequency across different states  
+- Impact of weather, time, and location on accident severity  
+- Data-driven insights to improve road safety  
+
+## 🏗️ How to Use  
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/yourusername/us-accident-analysis.git
+   cd us-accident-analysis
