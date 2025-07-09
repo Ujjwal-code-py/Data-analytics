@@ -98,7 +98,19 @@ Email: ug98415@gmail.com
 GitHub: Ujjwal-code-py
 
 YouTube Demo: https://www.youtube.com/watch?v=t8B4ECgtKOo
+
+## Dashboard Preview
+
 ![image](https://github.com/user-attachments/assets/9a646c65-c236-4278-b66f-e3e0de56f9d1)
+
+![image](https://github.com/user-attachments/assets/23b32cb7-eb67-41d5-a6b0-e9cc1f12de4a)
+
+![image](https://github.com/user-attachments/assets/51bbde55-4c2c-41f0-9c60-0c26323dfb01)
+
+![image](https://github.com/user-attachments/assets/cabd0249-16ae-4c00-a8ea-046f8e7c0b0d)
+
+
+
 
 
 
