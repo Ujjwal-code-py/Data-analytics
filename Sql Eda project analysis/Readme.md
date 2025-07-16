@@ -103,7 +103,7 @@ TRUNCATE TABLE gold.dim_customers;
 GO
 
 BULK INSERT gold.dim_customers
-FROM 'C:\Users\ug984\Downloads\sql-data-analytics-project\datasets\csv-files\gold.dim_customers.csv' ## here choosse your own path 
+FROM 'C:\Users\ug984\Downloads\sql-data-analytics-project\datasets\csv-files\gold.dim_customers.csv'
 WITH (
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -115,7 +115,7 @@ TRUNCATE TABLE gold.dim_products;
 GO
 
 BULK INSERT gold.dim_products
-FROM 'C:\Users\ug984\Downloads\sql-data-analytics-project\datasets\csv-files\gold.dim_products.csv' ## here choosse your own path 
+FROM 'C:\Users\ug984\Downloads\sql-data-analytics-project\datasets\csv-files\gold.dim_products.csv' 
 WITH (
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
@@ -127,13 +127,15 @@ TRUNCATE TABLE gold.fact_sales;
 GO
 
 BULK INSERT gold.fact_sales
-FROM 'C:\Users\ug984\Downloads\sql-data-analytics-project\datasets\csv-files\gold.fact_sales.csv'  ## here choosse your own path 
+FROM 'C:\Users\ug984\Downloads\sql-data-analytics-project\datasets\csv-files\gold.fact_sales.csv'
 WITH (
 	FIRSTROW = 2,
 	FIELDTERMINATOR = ',',
 	TABLOCK
 );
 GO
+
+⚠️ Ensure correct file paths and backup before execution.
 
 ♻️ Option 2: Restore the Database from Backup
 Alternatively, you can restore the database directly from a .bak file.
