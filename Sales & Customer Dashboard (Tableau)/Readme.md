@@ -62,7 +62,8 @@ Sales-Customer-Dashboard/
 - Region
 These filters allow users to explore geographic trends in sales and customer behavior, focusing on specific areas for targeted analysis.
 
-<img width="1324" height="861" alt="Screenshot 2025-07-26 055215" src="https://github.com/user-attachments/assets/7867d9fd-a7bb-427f-808a-7ad4b12713c9" />
+<img width="1284" height="848" alt="Screenshot 2025-07-26 055232" src="https://github.com/user-attachments/assets/52fd1da3-1add-46ec-981b-80f338795e93" />
+
 
 ## Tools Used
 Tableau Public (for Dashboard)
@@ -74,6 +75,9 @@ Excel/CSV (Dataset source)
 The dashboard is interactive and allows users to filter by multiple fields to generate custom views for insights and reporting.
 
 
+## 🚀 How to Use
 
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ujjwal-code-py/Data-analytics.git
 
