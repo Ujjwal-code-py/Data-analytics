@@ -75,9 +75,16 @@ Excel/CSV (Dataset source)
 The dashboard is interactive and allows users to filter by multiple fields to generate custom views for insights and reporting.
 
 
+## 🔗 Dashboard Access
+To explore the dashboard live, visit:  
+👉 [Sales & Customer Dashboard on Tableau Public](https://public.tableau.com/app/profile/ujjwal.gupta8332/viz/SalesCustomerDashboard_17535271966280/Salesdashboard)
+
+## 🧩 How to Use / Clone This Project
+
 ## 🚀 How to Use
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Ujjwal-code-py/Data-analytics.git
+
 
