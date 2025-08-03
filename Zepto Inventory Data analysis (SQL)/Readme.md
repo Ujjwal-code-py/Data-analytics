@@ -36,6 +36,8 @@ The dataset was sourced from [Kaggle](https://www.kaggle.com/) and represents pr
 
 ### 1️⃣ Database & Table Creation
 
+
+
 ``sql
 CREATE TABLE zepto (
   sku_id SERIAL PRIMARY KEY,
@@ -51,14 +53,19 @@ CREATE TABLE zepto (
 );
 ``
 
+
 ### 1️⃣ Database & Table Creation
 You can import the CSV using pgAdmin or run the following command:
+
+
 ``
 \copy zepto(category,name,mrp,discountPercent,availableQuantity,
             discountedSellingPrice,weightInGms,outOfStock,quantity)
 FROM 'data/zepto_v2.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8');
 ``
+
+
 
 ### 3️⃣ Data Exploration
 Counted total records
@@ -97,11 +104,14 @@ Product groups: Low, Medium, Bulk (by weight)
 
 Total inventory weight per category
 ### How  to use  this
-🔄 Clone the Repository
-``
+🔄 Clone the Repository:
+
+
+`
 git clone https://github.com/Ujjwal-code-py/Data-analytics.git
 cd Data-analytics/Zepto\ Inventory\ Data\ analysis\ \(SQL\)
-``
+`
+
 💻 Run in PostgreSQL
 Create a new database (e.g., zepto_inventory)
 
